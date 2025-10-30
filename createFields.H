@@ -71,7 +71,7 @@ autoPtr<fluidThermophysicalTransportModel> thermophysicalTransport
 #include "gravitySettings.H"
 
 
-Info<< "Reading field p_g11\n" << endl;
+Info<< "Reading field p_g\n" << endl;
 volScalarField p_g
 (
     IOobject
